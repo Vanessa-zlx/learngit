@@ -26,3 +26,8 @@
 后续推送：git push origin master
 查看远程库信息：git remote -v
 取消关联远程库：git remote rm origin
+克隆远程库：git clone git@github.com:Vanessa-zlx/xxxx.git
+
+创建分支：git branch <branchname>
+切换分支：git checkout <branchname>
+创建并切换分支：git checkout -b <branchname>
