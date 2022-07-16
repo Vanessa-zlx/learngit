@@ -9,7 +9,6 @@
 创建文件：touch <filename>
 查看文件：cat <filename>
 
-
 提交到暂存区：git add <filename>
 提交到当前分支：git commit -m "commitMessage"
 
@@ -19,8 +18,11 @@
              git reset --hard HEAD~100
              git reset --hard <commitid>
 
-
-
-
 撤销工作区：git checkout -- <filename>
 撤销暂存区：git reset HEAD <filename>
+
+关联github：git remote add origin git@github.com:Vanessa-zlx/xxxx.git
+第一次推送：git push -u origin master
+后续推送：git push origin master
+查看远程库信息：git remote -v
+取消关联远程库：git remote rm origin
