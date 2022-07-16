@@ -1,0 +1,26 @@
+文件夹操作：mkdir <dirname>
+           cd <dirname>  cd ..
+显示当前路径：pwd
+
+初始化仓库：git init
+查看仓库状态：git status
+查看修改内容：git diff <filename>
+
+创建文件：touch <filename>
+查看文件：cat <filename>
+
+
+提交到暂存区：git add <filename>
+提交到当前分支：git commit -m "commitMessage"
+
+查看提交日志：git log (--pretty=oneline)
+查看历史提交日志：git reflog
+分支版本回退：git reset --hard HEAD^^
+             git reset --hard HEAD~100
+             git reset --hard <commitid>
+
+
+
+
+撤销工作区：git checkout -- <filename>
+撤销暂存区：git reset HEAD <filename>
